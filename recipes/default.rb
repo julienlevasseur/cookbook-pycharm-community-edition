@@ -19,6 +19,5 @@
 
 windows_package node['pycharm-community-edition']['windows']['package_name'] do
   source node['pycharm-community-edition']['windows']['url']
-  installer_type :msi
   action :install
 end
